@@ -1,0 +1,5 @@
+export const logo1="https://res.cloudinary.com/dg0pspgi1/image/upload/v1684365286/DruggerApp/logo/logo3_ijxwlx.png"
+export const logo2="https://res.cloudinary.com/dg0pspgi1/image/upload/v1684365286/DruggerApp/logo/logo2_ywctzg.png"
+export const mainLogo="https://res.cloudinary.com/dg0pspgi1/image/upload/v1684365286/DruggerApp/logo/logoDrugger_uy2nbq.png"
+export const defaultImage="https://res.cloudinary.com/dg0pspgi1/image/upload/v1684466054/DruggerApp/logo/default-profile-icon-24_mdxktl.jpg"
+export const avatar="https://res.cloudinary.com/dg0pspgi1/image/upload/v1684470629/DruggerApp/logo/profile_ty1kyw.png"

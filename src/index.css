@@ -1,0 +1,282 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --mainColor: #164266;
+  --secondColor: #fbba58;
+  --thirdColor: #e5384f;
+  --fourthColor: #60b7ff;
+  --fifthColor: #327dbb ;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f7fb;
+  overflow-x: hidden;
+}
+
+.bg-main {
+  background-color: var(--mainColor) !important;
+}
+
+.bg-second {
+  background-color: var(--secondColor) !important;
+}
+
+.bg-third {
+  background-color: var(--thirdColor) !important;
+}
+
+.bg-fourth {
+  background-color: var(--fourthColor) !important;
+}
+
+.bg-fifth {
+  background-color: var(--fifthColor) !important;
+}
+
+.text-main {
+  color: var(--mainColor) !important;
+}
+
+.text-second {
+  color: var(--secondColor) !important;
+}
+
+.text-third {
+  color: var(--thirdColor) !important;
+}
+.text-fourth {
+  color: var(--fourthColor) !important;
+}
+.text-fifth {
+  color: var(--fifthColor) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-height {
+  height: 200px;
+}
+
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.redu{
+  border-radius: 50%;
+}
+/* 
+.product:hover {
+   box-shadow: var(--shadow);
+    border: solid 1px var(--mainColor); 
+  cursor: pointer;
+}
+
+.product .btn {
+  transition: transform 1s, opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.product:hover .btn {
+  opacity: 1;
+  transform: translateY(0%);
+
+} */
+
+
+.font{font-size: 18px;}
+
+.over{
+  overflow: auto;
+  margin-top: 75px;
+}
+
+/* .verticleHr {
+  border-right: 1px solid ;
+  height: 100%;
+  padding: 10px 0;
+} */
+
+.verticleHr {
+  position: relative;
+  padding: 20px 0;
+  /* 20 pixels of padding from the top and bottom */
+}
+
+.verticleHr::before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  bottom: 0%;
+  right: 0;
+  border-right: 1px solid rgb(205, 199, 199);
+}
+.pill p:hover {
+  color: var(--fourthColor);
+}
+
+.vvv {
+  align-self: center;
+  /* vertical-align: middle; */
+}
+
+
+
+.style p{
+  list-style-type: circle ;
+}
+.div-size{
+width: 15px;
+height: 15px;
+}
+.size-cart-footer
+{
+  width: 175px;
+  height: 65px;
+}
+.main-cart-bg
+{
+  background-color: #131722;
+  color: white;
+}
+
+.file-input {
+  position: relative;
+  display: inline-block;
+}
+
+.input-file {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.file-label {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-label:hover {
+  background-color: #e0e0e0;
+}
+.out:focus{
+  outline-style: 0px !important;
+  outline: none;
+}
+
+.time{
+  font-size: 14px;
+}
+.minHeight{
+  height: 140px;
+}
+.iii
+{
+  height: 3px;
+  background-color: #ccc;
+  width: 10px;
+  margin-top: 18px;
+}
+.nm
+{
+  font-size: 10px;
+}
+.ex-color
+{
+  color: #fbba58;
+}
+.um
+{
+  height: 450px;
+}
+.tr1
+{
+  vertical-align: middle;
+}
+
+
+/* ********************************** */
+.minHeight{
+  height: 140px;
+}
+
+.searchBox {
+  background: transparent;
+  border-radius: 40px;
+}
+
+.searchBox:focus-within > #searchInput {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  color:var(--thirdColor)
+}
+
+.searchButton {
+  color: white;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  border-color: transparent;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#searchInput {
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-right: none;
+  background: transparent!important;
+  outline:none;
+  float:left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  border-radius: 0!important;
+  -webkit-border-radius: 0!important;
+  -moz-border-radius: 0!important;
+  -ms-border-radius: 0!important;
+  -o-border-radius: 0!important;
+}
+
+#searchInput::placeholder
+{
+  color: #f5f5f5b2;
+
+}

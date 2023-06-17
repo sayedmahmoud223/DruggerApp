@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+  @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500&family=Tajawal:wght@900&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.forgot_password,
+.forgot_password a {
+  text-align: right;
+  font-size: 15px;
+  padding-top: 10px;
+  color: dark;
+  margin: 0;
+}
+
+.forgot_password a {
+  color: #167bff;
+}
+
+.error {
+  border: 2px solid #d31225;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.form {
+
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+.para
+{
+  text-align: center;
+}
+.line {
+  width: 75%; 
+  height: 0.5px; 
+  background-color: rgb(149, 145, 145); 
+}
+.title{
+  font-size: 28px;
+  line-height: 56px;
+  text-align: center;
+}
+  
